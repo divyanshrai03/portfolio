@@ -5,7 +5,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
-
+import Img01 from '../../assets/images/img2.png';
 
 const Hero = () => {
     return (
@@ -26,7 +26,7 @@ const Hero = () => {
                     <FaReact size={50}/>
                     </div>
 
-                    <img src='./src/assets/images/img2.png' alt='' />
+                    <img src={Img01} alt='' />
                 </div>
 
                 <div>
