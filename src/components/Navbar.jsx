@@ -8,6 +8,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
 import { NavLink } from 'react-router-dom';
 import { WorkExperience } from './WorkExperience/WorkExperience';
+import Logo from '../assets/images/logo.png';
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
             <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
             <nav className='nav-wrapper'>
                 <div className='nav-content'>
-                    <img className='logo' src='./src/assets/images/logo.png' alt='' />
+                    <img className='logo' src={Logo} alt='' />
                     <ul> 
                         <li>
                             <a className='menu-item' href='/home'>
