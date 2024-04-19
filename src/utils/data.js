@@ -1,7 +1,12 @@
+import Bg1 from '../assets/images/frontend-icon.png';
+import Bg2 from '../assets/images/backend-icon.png';
+import Bg3 from '../assets/images/tools-icon.png';
+import Bg4 from '../assets/images/softskills-icon.png';
+
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "./src/assets/images/frontend-icon.png", width: 50, height: 50,
+        icon: Bg1, width: 50, height: 50,
         skills: [
             { skill: "HTML5", percentage: "90%"},
             { skill: "CSS3 (Sass/SCSS)", percentage: "90%"},
@@ -12,7 +17,7 @@ export const SKILLS = [
 
     {
         title: "Backend",
-        icon:'./src/assets/images/backend-icon.png',
+        icon:Bg2,
         skills: [
             { skill: "NodeJs", percentage: "15%"},
             { skill: "MongoDB", percentage: "10%"},
@@ -22,7 +27,7 @@ export const SKILLS = [
 
     {
         title: "Tools",
-        icon:'./src/assets/images/tools-icon.png',
+        icon:Bg3,
         skills: [
             { skill: "Git & GitHub", percentage: "85%"},
             { skill: "Visual Studio Code", percentage: "90%"},
@@ -33,7 +38,7 @@ export const SKILLS = [
 
     {
         title: "SoftSkills",
-        icon:'./src/assets/images/softskills-icon.png',
+        icon:Bg4,
         skills: [
             { skill: "Problem-Solving Abilities", percentage: "85%"},
             { skill: "Time Management", percentage: "90%"},
