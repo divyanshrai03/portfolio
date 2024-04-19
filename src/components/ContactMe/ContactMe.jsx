@@ -4,7 +4,8 @@ import ContactInfoCard from './ContactInfoCard/ContactInfoCard'
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { ContactForm } from './ContactForm/ContactForm';
-
+import Git from '../../assets/images/github-icon.svg'; 
+import Email from '../../assets/images/email-icon.svg'; 
 
 function ContactMe() {
   return (
@@ -14,11 +15,11 @@ function ContactMe() {
         <div className='contact-content'>
             <div style={{flex: 1}}>
               <ContactInfoCard
-                iconUrl="./src/assets/images/email-icon.svg"
+                iconUrl={Email}
                 text="ce.divyanshrai@gmail.com"
               />
               <ContactInfoCard
-                iconUrl="./src/assets/images/github-icon.svg"
+                iconUrl={Git}
                 text="https://github.com/divyanshrai03"
               />
             </div>
