@@ -46,7 +46,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                             </a>
                         </li>
                         <button className='contact-btn' onClick={() => {}}>
-                            <a href='https://drive.google.com/file/d/199FT9rRIEO5c3MoWLEEFkfPhvtcLQh-3/view?usp=sharing' style={{ color: 'white', textDecoration: 'none'}}>Resume</a>
+                            <a href='https://drive.google.com/file/d/18QXTKPxO_qXlsc30SC07HIg2D-S_CsLm/view?usp=sharing' style={{ color: 'white', textDecoration: 'none'}}>Resume</a>
                         </button>
 
                     </ul>
