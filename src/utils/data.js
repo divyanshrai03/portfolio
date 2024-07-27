@@ -19,8 +19,9 @@ export const SKILLS = [
         title: "Backend",
         icon:Bg2,
         skills: [
-            { skill: "NodeJs", percentage: "15%"},
-            { skill: "MongoDB", percentage: "10%"},
+            { skill: "NodeJs", percentage: "35%"},
+            { skill: "MongoDB", percentage: "70%"},
+            { skill: "ExpressJs", percentage: "60%"},
             
         ],
     },
@@ -57,7 +58,7 @@ export const WORK_EXPERIENCE = [
             "Spearheaded the development of an E-Commerce platform uniquely designed to cater to users with limited technical proficiency.",
             "Successfully incorporated intuitive features, including a chatbot for efficient customer support and advanced 360-degree product viewing capabilities.",
             "Skillfully integrated cutting-edge AR technology to deliver engaging and immersive product experiences for users.",
-            "Maintained a strong focus on improving overall usability and accessibility to ensure a seamless experience for a wide range of users.            ",
+            "Maintained a strong focus on improving overall usability and accessibility to ensure a seamless experience for a wide range of users.",
         ]
     },
 
